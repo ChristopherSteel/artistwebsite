@@ -1,0 +1,64 @@
+BODY{font-family: 'Courier New', Courier, monospace;
+    background-colour: rgb(255,0,0);}
+    h1{color: rgb(0,255,0)}
+    href{color: rgb(255,0,0)}
+   
+
+img.small_images{
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px
+}
+img.large_images{
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1000px
+}
+#copyrightnotice {
+    line-height: 2em;
+    font-size: 0.7em;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: bolder;
+    
+}
+p {
+    line-height: 0.9em;
+    font-size: 1.2em;
+    margin-left: 20;
+    padding-left: 1em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+/* .list1 {
+    line-height: 1.5em;
+    font-size: 1.4em;
+    margin-left: 40;
+    list-style-type: circle;
+}
+*/
+
+ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;;
+    line-height: 1.2em;
+  }
+  
+  li {
+    padding-left: 1em
+  }
+  
+  li::before {
+    content: ">"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: rgb(0, 255, 0); /* Or a color you prefer */
+  }
